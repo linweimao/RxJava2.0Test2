@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变换操作符：Map"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变换操作符：FlatMap"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变换操作符：ConcatMap"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变换操作符：Buffer"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"/>
+</LinearLayout>
